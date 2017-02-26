@@ -1,0 +1,33 @@
+{
+  "license": "MIT",
+  "name": "easymake",
+  "version": "1.0.0",
+  "description": "easymake - task runner, based on presets",
+  "keywords": "easymake taskrunner presets",
+  "author": {
+    "name": "MAD Code: bizarre",
+    "email": "madcode.tech@gmail.com"
+  },
+  "bugs": {
+    "email": "madcode.tech@gmail.com"
+  },
+  "repository":{
+    "type" : "git",
+    "url" : "https://github.com/madcode-tech/easymake.git"
+  },
+  "engines": {
+    "node" : ">=7.1.0"
+  },
+  "main": "./api/index.js",
+  "bin": {
+    "easymake": "./bin/easymake.js"
+   },
+  "scripts": {},
+  "dependencies": {
+    "command-line-args": "^3.0.3",
+    "command-line-usage": "^3.0.7",
+    "fs-extra": "^1.0.0",
+    "orchestrator": "^0.3.8",
+    "madcode-utils-checkers": "^1.0.0"
+  }
+}
