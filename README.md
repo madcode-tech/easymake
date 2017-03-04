@@ -6,6 +6,9 @@
 ## lists of known presets
 [List of known presets](https://github.com/madcode-tech/easymake/wiki) or search on npm "easymake preset"
 
+## documentation
+You can find documentation here https://github.com/madcode-tech/easymake/wiki
+
 ## mandatory configuration:
 
 1. Select preset, set it as (**!important**) devDependency for your project (easymake will be installed with preset).
